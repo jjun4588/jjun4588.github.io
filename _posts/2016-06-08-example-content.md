@@ -2,7 +2,7 @@
 title:        "2021-06-08 첫번째 포스트"
 description:  "A short description of the page's content"
 image:        "http://placehold.it/400x200"
-author:       "Jhonathan"
+author:       "jjun4588"
 ---
 
 깃허브 시험
