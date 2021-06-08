@@ -3,6 +3,6 @@ title: 소개
 permalink: /about/
 ---
 
-<p class="heavy-title"><a href="http://github.com/thinker3197/Ink">Ink</a> is a simple & minimalistic theme for <a href="http://jekyllrb.com">Jekyll</a>, a static site generator.</p>
+안녕하세요! 강릉원주대학교 컴퓨터공학과 4학년 임준호입니다.
 
->Designed and developed by [@thinker3197](https://github.com/thinker3197).
+>이메일 주소 : jjun4588@naver.com
