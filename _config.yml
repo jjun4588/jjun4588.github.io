@@ -25,9 +25,9 @@ permalink:          /:year/:month/:day/:title/
 markdown:           kramdown
 
 nav:
-  - name:           "About"
+  - name:           "소개"
     href:           "/about"
-  - name:           "Download"
+  - name:           "그 외 사항"
     href:           "/releases"
 
 sass:
@@ -48,4 +48,4 @@ defaults:
       layout:       "post"
 
 gems:
-  - jekyll-paginate
+  - jjun4588-paginate
