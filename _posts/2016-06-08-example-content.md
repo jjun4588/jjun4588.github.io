@@ -1,6 +1,6 @@
 ---
 title:        "2021-06-08 첫번째 포스트"
-description:  "A short description of the page's content"
+description:  "첫번째 포스트 입니다."
 image:        "http://placehold.it/400x200"
 author:       "jjun4588"
 ---
