@@ -2,7 +2,7 @@ name:               "IMJUNHO"
 description:        "강릉원주대학교 컴퓨터공학과 4학년"
 
 url:                ""
-author:             "jjun4588"
+author:             "thinker3197"
 email:              "jjun4588@naver.com"
 gravatar_hash:      "205e460b479e2e5b48aec07710c08d50"
 twitter:            "jjun4588"
@@ -48,4 +48,4 @@ defaults:
       layout:       "post"
 
 gems:
-  - jjun4588-paginate
+  - jekyll-paginate
