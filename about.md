@@ -1,6 +1,6 @@
 ---
 title: 소개
-permalink: 
+permalink: /about/
 ---
 
 안녕하세요! 강릉원주대학교 컴퓨터공학과 4학년 임준호입니다.
