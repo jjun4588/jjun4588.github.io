@@ -1,160 +1,67 @@
 ---
-title:        "Sample Post"
-description:  "A short description of the page's content"
+title:        "오픈소스 역사"
+description:  "세번째 포스트 입니다."
 image:        "http://placehold.it/400x200"
-author:       "Jhonathan"
+author:       "jjun4588"
 ---
 
-An h1 header
+오픈소스의 역사를 알아보자
 ============
 
-Paragraphs are separated by a blank line.
+## 1960년대
+>하드웨어 판매 중심
 
-2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
-look like:
+>소프트웨어 공유 문화
 
-  * this one
-  * that one
-  * the other one
+## 1970년대
+>벨 연구소에 의해 Unix 개발
 
-Note that --- not considering the asterisk --- the actual text
-content starts at 4-columns in.
+>AT&T 를 비롯한 여러 회사 버클리 등 비영리 단체에서 다양한 버전 개발
 
-> Block quotes are
-> written like so.
->
-> They can span multiple paragraphs,
-> if you like.
+>1980 년대 HP/UX, AIX, Solaris 등의 상용 버전
 
-Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
-in chapters 12--14"). Three dots ... will be converted to an ellipsis.
-Unicode is supported. ☺
+## 1976년
+>빌게이츠가 컴퓨터 애호가들에게 보내는 공개 편지 Open Letter to Hobbyists”
 
+>1976 년 친구 폴 앨런과 MITS Altair 8800 을 위한 베이식 인터프리터 제조 후 MITS를 통 해 판매
 
+>소프트웨어 저작권에 대한 인지 시작된 상업용 소프트웨어 시대
 
-An h2 header
-------------
+>모든 코드를 비공개 형태로 만들어 버리게 되는 계기
 
-Here's a numbered list:
+## 1984 ~ 1986 년
+>리처드스톨만
 
- 1. first item
- 2. second item
- 3. third item
+>자유 소프트웨어 운동 주도
 
-Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here's a code sample:
+>상용 소프트웨어에 대항한 자유로운 대안을 만들기 위한 의지
 
-    # Let me re-iterate ...
-    for i in 1 .. 10 { do-something(i) }
+>GNU is Not a Unix(GNU) 프로젝트 시작
 
-As you probably guessed, indented 4 spaces. By the way, instead of
-indenting the block, you can use delimited blocks, if you like:
+>Text editor(Emacs), Compiler(gcc), Debugger(gdb), make 개발
 
-~~~
-define foobar() {
-    print "Welcome to flavor country!";
-}
-~~~
+>Free Software 운동 시작 후 자유소프트웨어 재단 설립
 
-(which makes copying & pasting easier). You can optionally mark the
-delimited block for Pandoc to syntax highlight it:
+>1989년 최초의 오픈소스 라이선스 GNU General Public License 배포
 
-~~~python
-import time
-# Quick, count to ten!
-for i in range(10):
-    # (but not *too* quick)
-    time.sleep(0.5)
-    print i
-~~~
+## 1991년
+>리눅스의 탄생
 
+>핀란드 헬싱키 대학의 대학원생인 리누스 토발즈가 취미로 개발한 커널
 
+>핀란드 대학 3 학년 MINIX 를 응용하여 리눅스 커널 개발 후 GNU GPL 로 배포
 
-### An h3 header ###
+## 1998년
+>넷스케이프 브라우저 코드에 대한 공개 형태를 결정하는 전략회의에서 붙여진 용어
 
-Now a nested list:
+>넷스케이스 소스 코드 공개에 자극 받아 오픈소스를 장려하기 위한 단체인 OSI(Open Source Initiative) 설립
 
- 1. First, get these ingredients:
+## 2000년대
+>많은 기업들이 오픈소스를 사용
 
-      * carrots
-      * celery
-      * lentils
+>상용 소프트웨어 벤더에서도 오픈소스를 가져다가 사용하기 시작 
 
- 2. Boil some water.
+>특히 웹 기반 서비스 예 SNS) 업체에서 오픈소스 활용 폭발적 증가
 
- 3. Dump everything in the pot and follow
-    this algorithm:
+>구글 아마존 넷플릭스 인텔 오라클 IBM 등
 
-        find wooden spoon
-        uncover pot
-        stir
-        cover pot
-        balance wooden spoon precariously on pot handle
-        wait 10 minutes
-        goto first step (or shut off burner when done)
-
-    Do not bump wooden spoon or it will fall.
-
-Notice again how text always lines up on 4-space indents (including
-that last line which continues item 3 above).
-
-Here's a link to [a website](http://foo.bar), to a [local
-doc](local-doc.html), and to a [section heading in the current
-doc](#an-h2-header). Here's a footnote [^1].
-
-[^1]: Footnote text goes here.
-
-Tables can look like this:
-
-size  material      color
-----  ------------  ------------
-9     leather       brown
-10    hemp canvas   natural
-11    glass         transparent
-
-Table: Shoes, their sizes, and what they're made of
-
-(The above is the caption for the table.) Pandoc also supports
-multi-line tables:
-
---------  -----------------------
-keyword   text
---------  -----------------------
-red       Sunsets, apples, and
-          other red or reddish
-          things.
-
-green     Leaves, grass, frogs
-          and other things it's
-          not easy being.
---------  -----------------------
-
-A horizontal rule follows.
-
-***
-
-Here's a definition list:
-
-apples
-  : Good for making applesauce.
-oranges
-  : Citrus!
-tomatoes
-  : There's no "e" in tomatoe.
-
-Again, text is indented 4 spaces. (Put a blank line between each
-term/definition pair to spread things out more.)
-
-Here's a "line block":
-
-| Line one
-|   Line too
-| Line tree
-
-and images can be specified like so:
-
-![example image](http://placehold.it/800x250 "An exemplary image")
-
-
-And note that you can backslash-escape any punctuation characters
-which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
