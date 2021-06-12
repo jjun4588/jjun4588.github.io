@@ -1,160 +1,47 @@
 ---
-title:        "Sample Post"
-description:  "A short description of the page's content"
+title:        "오픈소스와 대한민국의 현실"
+description:  "네번째 포스트 입니다."
 image:        "http://placehold.it/400x200"
-author:       "Jhonathan"
+author:       "jjun4588"
 ---
 
-An h1 header
+오픈소스로 나가야 하는 이유
 ============
 
-Paragraphs are separated by a blank line.
+## 우리나라 IT 현실
 
-2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
-look like:
+>특정 벤더의 운영체제와 브라우저에 대한 높은 종속성으로 인한 국가적인 보안 위기 초래
 
-  * this one
-  * that one
-  * the other one
+>종속성을 낮추기 위한 방안으로 자유로운 사용과 수정이 가능한 오픈소스 부각
 
-Note that --- not considering the asterisk --- the actual text
-content starts at 4-columns in.
+>실제 다양한 국가와 기관에서 오픈소스를 사용한 성공 사례
 
-> Block quotes are
-> written like so.
->
-> They can span multiple paragraphs,
-> if you like.
+>대내외 비즈니스 환경의 변화 (빠르게 변하는 비즈니스 주변 환경)
 
-Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
-in chapters 12--14"). Three dots ... will be converted to an ellipsis.
-Unicode is supported. ☺
+>비즈니스 환경의 변화에 맞춘 혁신적 IT 기술의 필요성
 
+>빅데이터 클라우드 가상화 등 혁신적 신기술
 
+>다수의 참여자 모델 (소수보다 개발 속도 빠르다)
 
-An h2 header
-------------
+>중립적 플랫폼의 필요성 (영향력이 큰 플랫폼이 특정 벤더에 종속적이 되는 것을 방지)
 
-Here's a numbered list:
+## OSI(Open Source Initiative) 에서 제시하는 오픈소스가 비즈니스에 주는 이익
 
- 1. first item
- 2. second item
- 3. third item
+> 경쟁 업체 대비 빠른 비즈니스 서비스 구현과 높은 품질을 통한 차별성
 
-Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here's a code sample:
+> 개방형 표준 기반의 실제 동작하는 소프트웨어 확보
 
-    # Let me re-iterate ...
-    for i in 1 .. 10 { do-something(i) }
+> 훨씬 빠른 버그 픽스 (bug fix) 와 기능 추가 그리고 높은 품질과 안정성
 
-As you probably guessed, indented 4 spaces. By the way, instead of
-indenting the block, you can use delimited blocks, if you like:
+> 낮은TCO( 저 비용 )
 
-~~~
-define foobar() {
-    print "Welcome to flavor country!";
-}
-~~~
+> 원하는 제품과 기술에 대한 협력의 장 생태계 확보
 
-(which makes copying & pasting easier). You can optionally mark the
-delimited block for Pandoc to syntax highlight it:
+> 높은 보안 공개된 소스를 통해 보안 문제 빠르게 해결
 
-~~~python
-import time
-# Quick, count to ten!
-for i in range(10):
-    # (but not *too* quick)
-    time.sleep(0.5)
-    print i
-~~~
+> 중복 투자를 방지하고 표준화된 도입 운영 절차를 통해 효율성 향상
 
+> 기존 직원들에게 동기부여 및 신규 직원 충원 용이성
 
-
-### An h3 header ###
-
-Now a nested list:
-
- 1. First, get these ingredients:
-
-      * carrots
-      * celery
-      * lentils
-
- 2. Boil some water.
-
- 3. Dump everything in the pot and follow
-    this algorithm:
-
-        find wooden spoon
-        uncover pot
-        stir
-        cover pot
-        balance wooden spoon precariously on pot handle
-        wait 10 minutes
-        goto first step (or shut off burner when done)
-
-    Do not bump wooden spoon or it will fall.
-
-Notice again how text always lines up on 4-space indents (including
-that last line which continues item 3 above).
-
-Here's a link to [a website](http://foo.bar), to a [local
-doc](local-doc.html), and to a [section heading in the current
-doc](#an-h2-header). Here's a footnote [^1].
-
-[^1]: Footnote text goes here.
-
-Tables can look like this:
-
-size  material      color
-----  ------------  ------------
-9     leather       brown
-10    hemp canvas   natural
-11    glass         transparent
-
-Table: Shoes, their sizes, and what they're made of
-
-(The above is the caption for the table.) Pandoc also supports
-multi-line tables:
-
---------  -----------------------
-keyword   text
---------  -----------------------
-red       Sunsets, apples, and
-          other red or reddish
-          things.
-
-green     Leaves, grass, frogs
-          and other things it's
-          not easy being.
---------  -----------------------
-
-A horizontal rule follows.
-
-***
-
-Here's a definition list:
-
-apples
-  : Good for making applesauce.
-oranges
-  : Citrus!
-tomatoes
-  : There's no "e" in tomatoe.
-
-Again, text is indented 4 spaces. (Put a blank line between each
-term/definition pair to spread things out more.)
-
-Here's a "line block":
-
-| Line one
-|   Line too
-| Line tree
-
-and images can be specified like so:
-
-![example image](http://placehold.it/800x250 "An exemplary image")
-
-
-And note that you can backslash-escape any punctuation characters
-which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
+> 인프라를 Commodity 화 하고 이에 대한 지원 연속성 확보
