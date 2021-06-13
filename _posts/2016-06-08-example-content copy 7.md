@@ -1,160 +1,33 @@
 ---
-title:        "Sample Post"
-description:  "A short description of the page's content"
+title:        "초보 개발자가 오픈소스에 기여하는 방법"
+description:  "다섯번째 포스트 입니다."
 image:        "http://placehold.it/400x200"
-author:       "Jhonathan"
+author:       "jjun4588"
 ---
 
-An h1 header
+초보자의 5단계 방법
 ============
 
-Paragraphs are separated by a blank line.
+- 1단계 : 관심 분야 선택하기
+	- 오픈소스에 기여하는 건 자발적인 봉사활동이나 취미활동과 비슷
+	- 자신이 무엇에 호기심을 가지고 있는지 먼저 파악하는 게 중요
+	- 프로젝트 규모에 상관없이 현재 내가 무엇을 공부하고 싶은지 먼저 파악하여 선택
 
-2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
-look like:
+- 2단계 : 커뮤니티 찾기
+	- 관심분야를 정했다면 , 이에 대한 정보를 공유하는 커뮤니티 찾기
+	- 공식 웹사이트 , 페이스북 , 구글플러스 등 활용
 
-  * this one
-  * that one
-  * the other one
+- 3단계 : 문서 접하기
+	- 오픈소스 프로젝트는 대부분 영문으로 작업되기 때문에 한글화 작업은 한국인 개발자에게 높은 접근성을 제공
+	- 초급 개발자라면 문서화 작업을 통해 오픈소스 기여도를 높이고 공부도 함께할 수 있다.
+	- 영어 실력은 중요하지 않고 , 관심만 있다면 누구나 참여할 수 있다.
 
-Note that --- not considering the asterisk --- the actual text
-content starts at 4-columns in.
+- 4단계 : 써보기
+	- 과감한 개발자라면 오픈소스 SW 를 직접 써볼 수 있다 .
+	- 직접 코드를 들여다보고 오류를 제보하거나 주석을 고칠 수도 있다 .
+	- 실제 많은 오픈소스 기여자들이 오타 수정 작업으로 오픈소스 세계에 입문하곤 한다.
 
-> Block quotes are
-> written like so.
->
-> They can span multiple paragraphs,
-> if you like.
-
-Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
-in chapters 12--14"). Three dots ... will be converted to an ellipsis.
-Unicode is supported. ☺
-
-
-
-An h2 header
-------------
-
-Here's a numbered list:
-
- 1. first item
- 2. second item
- 3. third item
-
-Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here's a code sample:
-
-    # Let me re-iterate ...
-    for i in 1 .. 10 { do-something(i) }
-
-As you probably guessed, indented 4 spaces. By the way, instead of
-indenting the block, you can use delimited blocks, if you like:
-
-~~~
-define foobar() {
-    print "Welcome to flavor country!";
-}
-~~~
-
-(which makes copying & pasting easier). You can optionally mark the
-delimited block for Pandoc to syntax highlight it:
-
-~~~python
-import time
-# Quick, count to ten!
-for i in range(10):
-    # (but not *too* quick)
-    time.sleep(0.5)
-    print i
-~~~
-
-
-
-### An h3 header ###
-
-Now a nested list:
-
- 1. First, get these ingredients:
-
-      * carrots
-      * celery
-      * lentils
-
- 2. Boil some water.
-
- 3. Dump everything in the pot and follow
-    this algorithm:
-
-        find wooden spoon
-        uncover pot
-        stir
-        cover pot
-        balance wooden spoon precariously on pot handle
-        wait 10 minutes
-        goto first step (or shut off burner when done)
-
-    Do not bump wooden spoon or it will fall.
-
-Notice again how text always lines up on 4-space indents (including
-that last line which continues item 3 above).
-
-Here's a link to [a website](http://foo.bar), to a [local
-doc](local-doc.html), and to a [section heading in the current
-doc](#an-h2-header). Here's a footnote [^1].
-
-[^1]: Footnote text goes here.
-
-Tables can look like this:
-
-size  material      color
-----  ------------  ------------
-9     leather       brown
-10    hemp canvas   natural
-11    glass         transparent
-
-Table: Shoes, their sizes, and what they're made of
-
-(The above is the caption for the table.) Pandoc also supports
-multi-line tables:
-
---------  -----------------------
-keyword   text
---------  -----------------------
-red       Sunsets, apples, and
-          other red or reddish
-          things.
-
-green     Leaves, grass, frogs
-          and other things it's
-          not easy being.
---------  -----------------------
-
-A horizontal rule follows.
-
-***
-
-Here's a definition list:
-
-apples
-  : Good for making applesauce.
-oranges
-  : Citrus!
-tomatoes
-  : There's no "e" in tomatoe.
-
-Again, text is indented 4 spaces. (Put a blank line between each
-term/definition pair to spread things out more.)
-
-Here's a "line block":
-
-| Line one
-|   Line too
-| Line tree
-
-and images can be specified like so:
-
-![example image](http://placehold.it/800x250 "An exemplary image")
-
-
-And note that you can backslash-escape any punctuation characters
-which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
+- 5단계 : 깃허브 배우기
+	- 오픈소스 프로젝트는 전세계에 흩어져 있는 개발자들을 모아 작업한다 . 
+	- 깃허브는 웹을 통해 오픈소스 운동을 확산하는 데 큰 도움을 주기도 했다 .
+	- 깃은 소스코드 관리에 쓰는 협업 도구다. (깃허브는 깃에 소셜 기능을 더한 서비스다.)
