@@ -27,7 +27,7 @@ markdown:           kramdown
 nav:
   - name:           "소개"
     href:           "/about"
-  - name:           "그 외 사항"
+  - name:           "라이선스"
     href:           "/releases"
 
 sass:
